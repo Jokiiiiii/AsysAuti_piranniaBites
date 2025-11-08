@@ -2,6 +2,23 @@
 
 Krótki backend Flask do inspekcji danych uczestników zapisanych w plikach .pkl.
 
+## Nowy frontend (eksperymentalny)
+
+Repozytorium zawiera teraz katalog `frontend/` z lekką aplikacją React (Vite),
+która wizualizuje przykładową stronę profilu użytkownika zgodnie z przesłanym
+projektem UI.
+
+### Uruchamianie profilu
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+Aplikacja deweloperska startuje na `http://localhost:5173` i automatycznie
+otworzy przeglądarkę z widokiem profilu.
+
 ## Wymagania
 
 - Python 3.8+

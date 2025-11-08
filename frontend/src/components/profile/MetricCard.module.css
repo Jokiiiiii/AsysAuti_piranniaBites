@@ -1,0 +1,51 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 18px 20px;
+  border-radius: 12px;
+  background: linear-gradient(145deg, #f4f4f4, #e0e0e0);
+  box-shadow: 0 12px 20px rgba(24, 28, 50, 0.12);
+  min-height: 130px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  color: #030303;
+}
+
+.icon {
+  display: inline-flex;
+  width: 42px;
+  height: 42px;
+  border-radius: 14px;
+  background: rgba(3, 3, 3, 0.08);
+  align-items: center;
+  justify-content: center;
+  color: rgba(3, 3, 3, 0.8);
+  font-size: 24px;
+}
+
+.value {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  color: rgba(3, 3, 3, 0.9);
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: rgba(3, 3, 3, 0.7);
+}
